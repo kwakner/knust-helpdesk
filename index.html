@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./assets/vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/vendor/bootstrap/icons/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>KNUST</title>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/imgs/KNUST Logo-04 1.svg" alt="knust logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          x-data-bs-toggle="collapse"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start" id="navbarSupportedContent">
+          <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">KNUST</h5> -->
+            <a class="offcanvas-title" id="offcanvasNavbarLabel" href="#">
+              <img src="./assets/imgs/KNUST Logo-04 1.svg" alt="knust logo" />
+            </a>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav nav-underline ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Open a New Ticket</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Check Ticket Status</a>
+              </li>
+            </ul>
+            <form class="ms-3 d-flex" role="search">
+              <!-- <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              /> -->
+              <button
+                class="btn rounded-circle text-white"
+                type="submit"
+                style="background-color: green"
+              >
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div class="hero g-3">
+      <div class="mask py-5">
+        <div class="container">
+          <div class="row py-5 px-3">
+            <div class="col-lg-8 d-flex flex-column pb-5">
+              <div class="pb-3">
+                <h1 class="fw-bolder text-yellow-soft">WELCOME TO KNUST</h1>
+                <h1 class="fw-bolder text-yellow-soft">HELP DESK</h1>
+              </div>
+              <div class="pb-3">
+                <p class="text-white">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore quas quae voluptate voluptatibus nihil
+                  exercitationem, illum dolore reiciendis amet delectus. Ad
+                  laudantium labore culpa ducimus ex incidunt inventore
+                  architecto odit, pariatur tempora, expedita dolor qui nisi.
+                  Culpa perspiciatis amet ipsam, ipsum dolor porro cum deleniti
+                  debitis facilis assumenda commodi explicabo nostrum maxime
+                  beatae doloremque.
+                </p>
+              </div>
+              <div>
+                <button
+                  value="Play Video"
+                  type="button"
+                  class="btn btn-outline-light py-0 btn-lg rounded-pill"
+                >
+                  <span class="p-0 m-0 d-flex align-items-center"
+                    >Play Video
+                    <i class="bi bi-play-fill fs-2"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-4 col">
+              <div
+                class="card transcard border-0 help-card help-card-transluscent shadow"
+              >
+                <div
+                  class="card-body d-flex flex-column justify-content-center p-1 pb-2"
+                >
+                  <!--  -->
+                  <h3 class="card-title text-center text-white pb-3 pt-4">
+                    How Can We Help?
+                  </h3>
+                  <!--  -->
+                  <div class="pb-4 w-100">
+                    <div class="input-group bg-white rounded-pill w-75 mx-auto">
+                      <input
+                        class="form-control border-0 rounded-pill ps-3 p-2"
+                        type="text"
+                        placeholder="Search KNUST Help Desk"
+                        aria-label="Search"
+                      />
+                      <button
+                        class="btn btn-light bg-white rounded-pill input-group-text"
+                        type="submit"
+                      >
+                        <span class="bi bi-search"></span>
+                      </button>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <div
+                    class="quick-login card d-flex flex-column py-3 help-card"
+                  >
+                    <h5 class="title-primary-b1 px-4">Quick Login</h5>
+                    <div class="quick-login-list d-flex">
+                      <ul>
+                        <li class="quick-login-item title-primary">
+                          <i class="bi bi-person"></i>
+                          Students Portal
+                        </li>
+                        <li class="quick-login-item title-primary">
+                          <i class="bi bi-building"></i>
+                          Estate Office
+                        </li>
+                        <li class="quick-login-item title-primary">
+                          <i class="bi bi-truck"></i>
+                          Transport
+                        </li>
+                      </ul>
+                      <ul>
+                        <li class="quick-login-item title-primary">
+                          <i class="bi bi-shop"></i>
+                          Food and Market
+                        </li>
+                        <li class="quick-login-item title-primary">
+                          <i class="bi bi-house medical"></i>
+                          Students Clinic
+                        </li>
+                        <li class="quick-login-item title-primary">
+                          <i class="bi bi-book open reader"></i>
+                          Library Service
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="px-4 pt-3">
+                      <button
+                        class="btn rounded-pill bg-yellow-soft text-sm title-primary"
+                      >
+                        More Login Links
+                        <i class="bi bi-chevron-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MOBILE FOR CARD -->
+    <!-- <div class="cardy my-5 mt-3">
+      <div class="long">
+        <button class="alert alert-secondary long my-1 p-2 rounded-0 ">
+         <a href="alerts.html">Alerts</a>
+         </button>
+       </div>
+      <div class="p-3 text-center bg-secondary mx-0 mt-3 mb-0">
+      <h1 class="text-body-emphasis">Quick Links and Services</h1>
+      <h2 class="col-lg-8 mx-auto fs-5 text-muted mt-3">
+       How can we help?
+      </h2>
+      <div class="d-inline-flex gap-5 mb-5 mt-5">
+        <button class="d-inline-flex text-center alert alert-info px-3 rounded-0 border-0" type="button">
+        <a href="login.html">Login Links</a> 
+        </button>
+       <button class="alert alert-info btn-lg px-3 rounded-0 border-0" type="button">
+        <a href="services .html">All Services</a> 
+       </button>
+      </div>
+     </div>
+     
+    </div> -->
+
+    <!-- HELP DESK _ MENU SECTION -->
+    <div class="container">
+      <div class="help-desk-section row card flex-row border-0 shadow">
+        <!-- MENU ITEMS -->
+        <div class="col-lg-3 col-sm-5">
+          <div class="card border-0 help-desk help-card shadow">
+            <div class="help-desk-header">
+              <h4 class="card-title pt-3">Help Desk</h4>
+              <p class="card-subtitle">Browser by category</p>
+            </div>
+            <!-- default active link  -->
+            <div class="help-desk-body" id="myChoice">
+              <!-- Toggle desk-item. Tab principle -->
+              <ul class="help-desk-items">
+                <li class="desk-item sub active" onclick="toggleDesky(0)">
+                  <a href="#">Students Portal</a>
+                </li>
+                <li class="desk-item sub" onclick="toggleDesky(1)">
+                  <a href="#">Portable Office</a>
+                </li>
+                <li class="desk-item sub" onclick="toggleDesky(2)">
+                  <a href="#">Transport</a>
+                </li>
+                <li class="desk-item sub" onclick="toggleDesky(3)">
+                  <a href="#">Food and Market</a>
+                </li>
+                <li class="desk-item sub" onclick="toggleDesky(4)">
+                  <a href="#">Students Clinic</a>
+                </li>
+                <li class="desk-item sub" onclick="toggleDesky(5)">
+                  <a href="#">Library Service</a>
+                </li>
+                <li class="desk-item sub" onclick="toggleDesky(6)">
+                  <a href="#">Estate Office</a>
+                </li>
+                <li class="desk-item sub" onclick="toggleDesky(7)">
+                  <a href="#">Transport</a>
+                </li>
+                <li class="desk-item sub" onclick="toggleDesky(8)">
+                  <a href="#">Students Clinic</a>
+                </li>
+                <li class="desk-item sub" onclick="toggleDesky(9)">
+                  <a href="#">Students Clinic</a>
+                </li>
+                <li class="desk-item sub" onclick="toggleDesky(10)">
+                  <a href="#">Library Service</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- MENU LIST ITEMS -->
+        <div class="col-lg-6 col-sm-7">
+          <div class="ps-3 pt-5 pb-2">
+            <h4 class="title-primary title-primary-b1">All Services</h4>
+          </div>
+          <!-- STUDENT PORTAL CONTENT -->
+          <ul class="all-services serve">
+            <li class="service-item text-info">Student portal</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+          </ul>
+          <!-- PORTABLE OFFICE -->
+          <ul class="all-services serve">
+            <li class="service-item text-info">Portable office</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+          </ul>
+
+          <!-- TRANSPORT-->
+          <ul class="all-services serve">
+            <li class="service-item text-info">Transport</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+          </ul>
+
+          <!-- FOOD AND MARKET -->
+          <ul class="all-services serve">
+            <li class="service-item text-info">Food and Market</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+          </ul>
+
+          <!-- STUDENT CLINIC -->
+          <ul class="all-services serve">
+            <li class="service-item text-info">Student Clinic</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+          </ul>
+
+          <!-- LIBRARY SERVICES -->
+          <ul class="all-services serve">
+            <li class="service-item text-info">Library Services</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+          </ul>
+
+          <!-- ESTATE OFFICE -->
+          <ul class="all-services serve">
+            <li class="service-item text-info">Estate Office</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+          </ul>
+
+          <!-- TRANSPORT -->
+          <ul class="all-services serve">
+            <li class="service-item text-info">Transport</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+            <li class="service-item">Lorem, ipsum.</li>
+          </ul>
+        </div>
+
+        <!-- MENU ACTION ITEMS -->
+        <div class="col-lg-3">
+          <div class="quick-actions card border-0 my-4 me-4">
+            <div class="card-header border-0">
+              <div class="card-title px-2 pt-2">
+                <p class="fs-4 title-primary-b1">Alerts</p>
+              </div>
+            </div>
+            <div class="card-body py-0">
+              <div class="d-flex flex-column">
+                <div
+                  class="d-flex title-primary pt-1 pb-0 border-bottom align-items-center"
+                >
+                  <span class="bi bi-person fs-2 pe-1"></span>
+                  <p class="flex-1 text-sm p-0 m-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+
+                <div
+                  class="d-flex title-primary pt-1 pb-0 border-bottom align-items-center"
+                >
+                  <span class="bi bi-buildings fs-2 pe-1"></span>
+                  <p class="flex-1 text-sm p-0 m-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+
+                <div
+                  class="d-flex title-primary pt-1 pb-0 border-bottom align-items-center"
+                >
+                  <span class="bi bi-car-front fs-2 pe-1"></span>
+                  <p class="flex-1 text-sm p-0 m-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+
+                <div
+                  class="d-flex title-primary pt-1 pb-0 border-bottom align-items-center"
+                >
+                  <span class="bi bi-building fs-2 pe-1"></span>
+                  <p class="flex-1 text-sm p-0 m-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+
+                <div
+                  class="d-flex title-primary pt-1 pb-0 border-bottom align-items-center"
+                >
+                  <span class="bi bi-building fs-2 pe-1"></span>
+                  <p class="flex-1 text-sm p-0 m-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tech and Support -->
+          <div class="quick-actions card border-0 my-4 me-4">
+            <div class="card-header border-0 py-0">
+              <div class="px-2">
+                <p class="title-primary-b1 my-0">Email and Phone</p>
+              </div>
+            </div>
+            <div class="card-body py-0 px-4">
+              <div class="d-flex title-primary pt-1 pb-0 align-items-center">
+                <span class="bi bi-envelope text-sm pe-1"></span>
+                <p class="flex-1 text-xs p-0 m-0">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+
+              <div class="d-flex title-primary pt-1 pb-0 align-items-center">
+                <span class="bi bi-telephone text-sm pe-1"></span>
+                <p class="flex-1 text-xs p-0 m-0">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tech and Support -->
+          <div class="quick-actions card border-0 my-4 me-4">
+            <div class="card-header border-0 py-0">
+              <div class="px-2">
+                <p class="title-primary-b1 my-0">Email and Phone</p>
+              </div>
+            </div>
+            <div class="card-body py-0 px-4">
+              <div class="d-flex title-primary pt-1 pb-0 align-items-center">
+                <span class="bi bi-geo-alt text-sm pe-1"></span>
+                <p class="flex-1 text-xs p-0 m-0">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tech and Support -->
+          <div class="quick-actions card border-0 my-4 me-4">
+            <div class="card-header border-0 py-0">
+              <div class="px-2">
+                <p class="title-primary-b1 my-0">Email and Phone</p>
+              </div>
+            </div>
+            <div class="card-body py-0 px-4">
+              <div class="d-flex title-primary pt-1 pb-0 align-items-center">
+                <span class="bi bi-clock text-sm pe-1"></span>
+                <p class="flex-1 text-xs p-0 m-0">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+
+              <div class="d-flex title-primary pt-1 pb-0 align-items-center">
+                <span class="bi bi-calendar text-sm pe-1"></span>
+                <p class="flex-1 text-xs p-0 m-0">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="quick-links">
+      <div class="container">
+        <div class="card p-5 border-0 shadow">
+          <!-- -->
+          <div class="card-header bg-white border-0">
+            <h2 class="card-title title-primary title-primary-b1">
+              Quick Links
+            </h2>
+          </div>
+          <!-- -->
+          <div class="card-body row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+            <div class="col">
+              <div
+                class="card-link h-100 card-bg bg-image border-0 rounded-0"
+                style="background-image: url('./assets/imgs/quick-links/2.jpg')"
+              >
+                <div class="mask h-100 px-4 pt-5 pb-2">
+                  <h3 class="text-white">Real Estate</h3>
+                  <p class="text-white">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Officia quae sit similique vel, porro repudiandae quis
+                    consequuntur esse corrupti nesciunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card-link h-100 card-bg bg-image border-0 rounded-0"
+                style="background-image: url('./assets/imgs/quick-links/3.jpg')"
+              >
+                <div class="mask h-100 px-4 pt-5 pb-2">
+                  <h3 class="text-white">Lecturers Assesment</h3>
+                  <p class="text-white">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Officia quae sit similique vel, porro repudiandae quis
+                    consequuntur esse corrupti nesciunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card-link h-100 card-bg bg-image border-0 rounded-0"
+                style="background-image: url('./assets/imgs/quick-links/4.jpg')"
+              >
+                <div class="mask h-100 px-4 pt-5 pb-2">
+                  <h3 class="text-white">Students Portal</h3>
+                  <p class="text-white">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Officia quae sit similique vel, porro repudiandae quis
+                    consequuntur esse corrupti nesciunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card-link h-100 card-bg bg-image border-0 rounded-0"
+                style="background-image: url('./assets/imgs/quick-links/1.jpg')"
+              >
+                <div class="mask h-100 px-4 pt-5 pb-2">
+                  <h3 class="text-white">Admissions</h3>
+                  <p class="text-white">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Officia quae sit similique vel, porro repudiandae quis
+                    consequuntur esse corrupti nesciunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card-link h-100 card-bg bg-image border-0 rounded-0"
+                style="background-image: url('./assets/imgs/quick-links/5.jpg')"
+              >
+                <div class="mask h-100 px-4 pt-5 pb-2">
+                  <h3 class="text-white">KCCR</h3>
+                  <p class="text-white">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Officia quae sit similique vel, porro repudiandae quis
+                    consequuntur esse corrupti nesciunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card-link h-100 card-bg bg-image border-0 rounded-0"
+                style="background-image: url('./assets/imgs/quick-links/6.jpg')"
+              >
+                <div class="mask h-100 px-4 pt-5 pb-2">
+                  <h3 class="text-white">Staff Directory</h3>
+                  <p class="text-white">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Officia quae sit similique vel, porro repudiandae quis
+                    consequuntur esse corrupti nesciunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- -->
+          <div class="card-footer bg-white border-0 d-flex flex-end">
+            <div class="px-4 ms-auto">
+              <button
+                class="btn title-primary bg-yellow-soft rounded-pill text-sm"
+              >
+                More Related Links
+                <i class="bi bi-chevron-down"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <footer
+      class="text-center text-lg-start text-white py-3 mt-5 footy"
+      style="background-color: #555"
+    >
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-sm-4 mb-4">
+              <!-- Content -->
+              <h6 class="fw-bold mb-4">About Us</h6>
+              <div>
+                <a href="#!" class="text-reset text-decoration-none">
+                  The Requirements</a
+                >
+              </div>
+
+              <div>
+                <a href="#!" class="text-reset text-decoration-none">
+                  Course Structure</a
+                >
+              </div>
+              <div>
+                <a href="#!" class="text-reset text-decoration-none">
+                  BA Economics</a
+                >
+              </div>
+              <div>
+                <a href="#!" class="text-reset text-decoration-none">
+                  Testimonies</a
+                >
+              </div>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-sm-4 mb-4">
+              <!-- Links -->
+              <h6 class="fw-bold mb-4">Online Services</h6>
+              <div>
+                <a href="#!" class="text-reset">Admission Portal</a>
+              </div>
+              <div>
+                <a href="#!" class="text-reset">Check Admission Status</a>
+              </div>
+              <div>
+                <a href="#!" class="text-reset">Open Educational Resources</a>
+              </div>
+              <div>
+                <a href="#!" class="text-reset">Staff Web Directory</a>
+              </div>
+              <div>
+                <a href="#!" class="text-reset"
+                  >KNUST Academia-Industry Portal</a
+                >
+              </div>
+              <div>
+                <a href="#!" class="text-reset">Student Mail</a>
+              </div>
+              <div>
+                <a href="#!" class="text-reset">Staff Mail</a>
+              </div>
+              <div>
+                <a href="#!" class="text-reset">Accra Guest House</a>
+              </div>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-sm-4 mb-4">
+              <!-- Links -->
+              <h6 class="fw-bold mb-4">Useful links</h6>
+              <div>
+                <a href="#!" class="text-reset"
+                  >Office of Grants and Research</a
+                >
+              </div>
+              <div>
+                <a href="#!" class="text-reset"
+                  >Online Job Application System</a
+                >
+              </div>
+              <div>
+                <a href="#!" class="text-reset">University Academic Calendar</a>
+              </div>
+              <div>
+                <a href="#!" class="text-reset">Academic Departments</a>
+              </div>
+              <div>
+                <a href="#!" class="text-reset"
+                  >Institute of Distance Learning</a
+                >
+              </div>
+              <div>
+                <a href="#!" class="text-reset"
+                  >International Programs Office</a
+                >
+              </div>
+              <div>
+                <a href="#!" class="text-reset"
+                  >MasterCard Foundation Scholars Program</a
+                >
+              </div>
+              <div>
+                <a href="#!" class="text-reset">The University Hospital</a>
+              </div>
+              <div>
+                <a href="#!" class="text-reset">Alumni Association</a>
+              </div>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-sm-4 mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="fw-bold mb-4">Quick Contact</h6>
+              <div>
+                <span class="text-reset">
+                  <i class="bi bi-house me-3 text-white"></i>
+                  Address Line 1
+                </span>
+              </div>
+              <div>
+                <span class="text-reset ms-4 ps-1"> Address Line 2 </span>
+              </div>
+              <div>
+                <span class="text-reset">
+                  <i class="bi bi-envelope me-3 text-white"></i>
+                  info@example.com
+                </span>
+              </div>
+              <div>
+                <span class="text-reset">
+                  <i class="bi bi-geo-alt me-3 text-white"></i>
+                  Kumasi Ghana
+                </span>
+              </div>
+              <div>
+                <span class="text-reset">
+                  <i class="bi bi-telephone me-3 text-white"></i> + 01 234 567
+                  88
+                </span>
+              </div>
+              <div>
+                <span class="text-reset">
+                  <i class="bi bi-printer me-3 text-white"></i> + 01 234 567 89
+                </span>
+              </div>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+
+      <div class="container">
+        <hr class="bg-white" style="height: 2px" />
+
+        <section
+          class="d-flex justify-content-center justify-content-lg-between px-2"
+        >
+          <span class="me-auto py-2 text-sm">
+            COPYRIGHT © 2023 KNUST HELP DESK - ALL RIGHTS RESERVED, KNUST
+            KUMASI, GHANA
+          </span>
+
+          <span class="ms-auto py-2 text-sm">
+            HELPDESK SOFTWARE - POWERED BY OSTICKET
+          </span>
+        </section>
+      </div>
+    </footer>
+
+    <script src="knust.js"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

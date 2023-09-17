@@ -1,0 +1,264 @@
+/* DEFAULTS */
+
+:root {
+  --yellow-hard: #fecf08ff;
+  --yellow-soft: #fce27cff;
+  --yellow-light: #fff8dbff;
+}
+
+.bg-yellow-light {
+  background-color: var(--yellow-light);
+}
+
+.bg-yellow-hard {
+  background-color: var(--yellow-hard);
+}
+
+.bg-yellow-soft {
+  background-color: var(--yellow-soft);
+}
+
+.text-yellow-soft {
+  color: var(--yellow-soft);
+}
+
+.title-primary {
+  color: green;
+}
+
+.title-primary-b1 {
+  color: green;
+  font-weight: bold;
+}
+
+.text-sm {
+  font-size: 0.75rem;
+}
+
+.text-xs {
+  font-size: 0.625rem;
+}
+
+.text-reset {
+  font-size: 0.75rem;
+  text-decoration: none;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+/* NAV SECTION */
+.nav-item .nav-link {
+  color: green;
+}
+
+.nav-item .nav-link:active,
+.nav-item .nav-link:hover {
+  font-weight: bolder;
+  border-bottom: 3px solid var(--yellow-soft);
+}
+
+/* HERO SECTION */
+.hero {
+  background-image: url("assets/imgs/apple_mac_os_x_high_sierra-wallpaper-1920x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.quick-login-list ul {
+  padding-left: 1rem;
+}
+
+.quick-login-item {
+  font-size: 0.75rem;
+  list-style-type: none;
+  padding: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.help-card {
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 30px;
+}
+
+.help-card-transluscent {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* MAIN SECTION - HELP DESK */
+.help-desk-section {
+  position: relative;
+  /* left: 1.2rem; */
+  bottom: 2rem;
+  border-radius: 0;
+}
+
+.help-desk {
+  position: relative;
+  bottom: 2.5rem;
+  right: 2.5rem;
+  background-color: var(--yellow-light);
+  padding: 0;
+}
+
+.help-desk-header {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.help-desk-header > * {
+  padding-left: 1.2rem; 
+  color: green;
+}
+
+.help-desk-header .card-title {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.help-desk-header .card-subtitle {
+  font-size: 0.75rem;
+}
+
+.help-desk-items {
+  padding-left: 1.2rem;
+  padding-right: 0;
+}
+
+.active,
+.desk-item:hover {
+  font-weight: 400;
+  background-color: white;
+  cursor: pointer;
+  border-left: 8px solid var(--yellow-hard);
+}
+
+[href="#"]{
+  text-decoration: none;
+}
+
+
+
+/* Initial hover helpdesk */
+
+/* .sub:hover {
+  background-color: #d3d0d0;
+  cursor: pointer;
+  border-left: 4px solid grey;
+  padding-left: -1rem;
+}    */
+
+.sub,
+.active {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.sub > a {
+  color: green;
+}
+
+.active > a {
+  color: green;
+}
+
+/*.all-services {*/
+/*display: grid;*/
+/*grid-template-rows: repeat(12, 1fr);*/
+/*grid-auto-flow: column;*/
+/*}*/
+
+.all-services {
+  display: none;
+  flex-wrap: wrap;
+}
+
+.all-services > * {
+  flex: 1 1 160px;
+}
+
+.service-item {
+  color: green;
+  font-size: 0.8rem;
+  list-style-type: square;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* QUICK LINKS SECTION */
+.card-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-link:hover {
+  transform: scale(1.07);
+  transition: ease-in 2s;
+  transition: ease-out 2s;
+  cursor: pointer;
+}
+
+div div button .btn:hover,
+div div button .btn:active {
+  background-color: var(--yellow-hard);
+}
+
+.hidden-md-up {
+  display: none;
+}
+
+.d-block {
+  display: block !important;
+}
+
+/* MOBILE VIEW */
+/* .long{
+  width: 100%;
+  border: none;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+
+
+button:hover{
+  background-color: black;
+  color: white;
+} */
+
+/* MEDIA QUERIY */
+/* @media (max-width: 576px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .transcard {
+    display: none;
+  }
+  .help-desk-section {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .cardy {
+    display: none;
+  }
+} */
