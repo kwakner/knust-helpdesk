@@ -114,8 +114,8 @@
   flex-direction: column;
 }
 
-.help-desk-header > * {
-  padding-left: 1.2rem; 
+.help-desk-header>* {
+  padding-left: 1.2rem;
   color: green;
 }
 
@@ -133,6 +133,10 @@
   padding-right: 0;
 }
 
+.desk-item a {
+  text-decoration: none;
+}
+
 .active,
 .desk-item:hover {
   font-weight: 400;
@@ -141,7 +145,7 @@
   border-left: 8px solid var(--yellow-hard);
 }
 
-[href="#"]{
+[href="#"] {
   text-decoration: none;
 }
 
@@ -166,11 +170,11 @@
   padding-right: 1.5rem;
 }
 
-.sub > a {
+.sub>a {
   color: green;
 }
 
-.active > a {
+.active>a {
   color: green;
 }
 
@@ -185,8 +189,13 @@
   flex-wrap: wrap;
 }
 
-.all-services > * {
+.all-services>* {
   flex: 1 1 160px;
+}
+
+.service-item a {
+  color: green;
+
 }
 
 .service-item {
