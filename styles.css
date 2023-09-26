@@ -195,7 +195,7 @@ button.tablink {
   flex-direction: column;
 }
 
-.help-desk-header > * {
+.help-desk-header>* {
   padding-left: 1.2rem;
   color: green;
 }
@@ -212,6 +212,10 @@ button.tablink {
 .help-desk-items {
   padding-left: 1.2rem;
   padding-right: 0;
+}
+
+.desk-item a {
+  text-decoration: none;
 }
 
 .active,
@@ -245,12 +249,12 @@ button.tablink {
   padding-right: 1.5rem;
 }
 
-.sub > a {
+.sub>a {
   color: green;
   text-decoration: none;
 }
 
-.active > a {
+.active>a {
   color: green;
 }
 
@@ -265,8 +269,13 @@ button.tablink {
   flex-wrap: wrap;
 }
 
-.all-services > * {
+.all-services>* {
   flex: 1 1 160px;
+}
+
+.service-item a {
+  color: green;
+
 }
 
 .service-item {
