@@ -92,7 +92,88 @@
   background-color: rgba(255, 255, 255, 0.4);
 }
 
+/* STATUS BAR TAB */
+.tab {
+  overflow: hidden;
+  border-top: 6px solid var(--yellow-light);
+  background-color: white;
+  margin-top: -60px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  position:absolute;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  flex-wrap: wrap;
+}
+
+
+#speca{
+  background-color: var(--yellow-light);
+}
+
+
+
+
+button.tablink {
+  display: flex;
+  margin: 0 2rem;
+}
+
+
+ /* .line {
+  position: relative; 
+  top: 40px;
+  left: 11rem; 
+  width: 90px;
+  height: 3px;
+  background-color: var(--yellow-hard);
+  border-radius: 10px;
+  transition: all .5s ease-in-out;
+  display: none;
+}  */
+
+
+
+/* STATUS MENU CONTENT */
+
+.tabcontent {
+  margin-top: px;
+  display: none;
+  padding: 6px 12px;
+  animation: moving .2s ease;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+@keyframes moving {
+  from{transform: translateX(40px); opacity: 0;}
+  to{transform: translateX(0px); opacity: 1;}
+}
+
+.student-status {
+  margin: 3rem 0;
+}
+
+.primary {
+  background-color: rgb(255, 255, 255);
+}
+
 /* MAIN SECTION - HELP DESK */
+
+.menu {
+  margin-top: 7rem;
+}
+
 .help-desk-section {
   position: relative;
   /* left: 1.2rem; */
@@ -149,8 +230,6 @@
   text-decoration: none;
 }
 
-
-
 /* Initial hover helpdesk */
 
 /* .sub:hover {
@@ -172,6 +251,7 @@
 
 .sub>a {
   color: green;
+  text-decoration: none;
 }
 
 .active>a {
