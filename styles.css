@@ -114,34 +114,28 @@
   padding: 14px 16px;
   font-size: 18px;
   font-weight: 600;
-  color: black;
+  color: green;
   flex-wrap: wrap;
+}
+
+.tab button.active{
+  border-bottom: 2px solid var(--yellow-soft);
+  border-radius: 2px;
+  transition: all .1s ease-in;
 }
 
 
 #speca{
   background-color: var(--yellow-light);
+  color: black;
 }
-
-
- /* .line {
-  position: relative; 
-  top: 40px;
-  left: 11rem; 
-  width: 90px;
-  height: 3px;
-  background-color: var(--yellow-hard);
-  border-radius: 10px;
-  transition: all .5s ease-in-out;
-  display: none;
-}  */
 
 
 
 /* STATUS MENU CONTENT */
 
 .tabcontent {
-  margin-top: px;
+  margin-top: 5px;
   display: none;
   padding: 6px 12px;
   animation: moving .2s ease;
