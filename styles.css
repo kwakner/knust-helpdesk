@@ -93,7 +93,7 @@
 }
 
 /* STATUS BAR TAB */
-.tab  {
+.tab {
   display: flex;
   border-top: 6px solid var(--yellow-light);
   background-color: white;
@@ -102,7 +102,7 @@
   margin-top: 35px;
   margin: 0 7rem;
   margin-top: -60px;
-  
+
 }
 
 .tab button {
@@ -119,12 +119,12 @@
 }
 
 
-#speca{
+#speca {
   background-color: var(--yellow-light);
 }
 
 
- /* .line {
+/* .line {
   position: relative; 
   top: 40px;
   left: 11rem; 
@@ -150,8 +150,15 @@
 }
 
 @keyframes moving {
-  from{transform: translateX(40px); opacity: 0;}
-  to{transform: translateX(0px); opacity: 1;}
+  from {
+    transform: translateX(40px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
 }
 
 .student-status {
@@ -271,6 +278,11 @@
   color: green;
 
 }
+
+.quick-login-item a {
+  color: green;
+}
+
 
 .service-item {
   color: green;
