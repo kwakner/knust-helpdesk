@@ -119,7 +119,7 @@
 }
 
 .tab button.active{
-  border-bottom: 2px solid var(--yellow-soft);
+  border-bottom: 3px solid var(--yellow-soft);
   border-radius: 2px;
   transition: all .1s ease-in;
 }
@@ -144,7 +144,7 @@
 }
 
 @keyframes moving {
-  from{transform: translateX(40px); opacity: 0;}
+  from{transform: translateX(50px); opacity: 0;}
   to{transform: translateX(0px); opacity: 1;}
 }
 

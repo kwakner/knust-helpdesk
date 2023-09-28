@@ -1,22 +1,21 @@
 // Toggle Tabs With Active Selection
-  function openTab(event, acaName) {
-    var p, tabcontent, tablinks
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (p = 0; p < tabcontent.length; p++) {
-      tabcontent[p].style.display = "none"
+ function openTab(event, acaName) {
+   var p, tabcontent, tablinks
+   tabcontent = document.getElementsByClassName("tabcontent");
+   for (p = 0; p < tabcontent.length; p++) {
+     tabcontent[p].style.display = "none"
 
-    }
-      tablinks = document.getElementsByClassName("tablink");
-      for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
+   }
 
-  
-       }
+     tablinks = document.getElementsByClassName("tablink");
+     for (i = 0; i < tablinks.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
 
-     document.getElementById(acaName).style.display = "flex";
-     event.currentTarget.className += " active";
+    document.getElementById(acaName).style.display = "flex";
+    event.currentTarget.className += " active";
 
-    }
+  }
 
 
 // Active selection for HelpDesk
