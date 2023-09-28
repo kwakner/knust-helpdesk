@@ -93,7 +93,7 @@
 }
 
 /* STATUS BAR TAB */
-.tab  {
+.tab{
   display: flex;
   border-top: 6px solid var(--yellow-light);
   background-color: white;
@@ -102,7 +102,6 @@
   margin-top: 35px;
   margin: 0 7rem;
   margin-top: -60px;
-  
 }
 
 .tab button {
@@ -124,12 +123,10 @@
   transition: all .1s ease-in;
 }
 
-
 #speca{
   background-color: var(--yellow-light);
   color: black;
 }
-
 
 
 /* STATUS MENU CONTENT */
