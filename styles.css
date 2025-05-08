@@ -93,7 +93,7 @@
 }
 
 /* STATUS BAR TAB */
-.tab {
+.tab{
   display: flex;
   border-top: 6px solid var(--yellow-light);
   background-color: white;
@@ -102,7 +102,6 @@
   margin-top: 35px;
   margin: 0 7rem;
   margin-top: -60px;
-
 }
 
 .tab button {
@@ -118,31 +117,16 @@
   flex-wrap: wrap;
 }
 
-.tab button.active {
-  border-bottom: 2px solid var(--yellow-soft);
+.tab button.active{
+  border-bottom: 3px solid var(--yellow-soft);
   border-radius: 2px;
   transition: all .1s ease-in;
 }
 
-
-#speca {
+#speca{
   background-color: var(--yellow-light);
   color: black;
 }
-
-
-/* .line {
-  position: relative; 
-  top: 40px;
-  left: 11rem; 
-  width: 90px;
-  height: 3px;
-  background-color: var(--yellow-hard);
-  border-radius: 10px;
-  transition: all .5s ease-in-out;
-  display: none;
-}  */
-
 
 
 /* STATUS MENU CONTENT */
@@ -157,15 +141,8 @@
 }
 
 @keyframes moving {
-  from {
-    transform: translateX(40px);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateX(0px);
-    opacity: 1;
-  }
+  from{transform: translateX(50px); opacity: 0;}
+  to{transform: translateX(0px); opacity: 1;}
 }
 
 .student-status {
@@ -286,10 +263,6 @@
 
 }
 
-.quick-login-item a {
-  color: green;
-}
-
 .service-item {
   color: green;
   font-size: 0.8rem;
@@ -323,43 +296,3 @@ div div button .btn:active {
 .d-block {
   display: block !important;
 }
-
-/* MOBILE VIEW */
-/* .long{
-  width: 100%;
-  border: none;
-
-}
-
-a{
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-}
-
-
-
-button:hover{
-  background-color: black;
-  color: white;
-} */
-
-/* MEDIA QUERIY */
-/* @media (max-width: 576px) {
-  body {
-    background-color: rgb(255, 255, 255);
-  }
-
-  .transcard {
-    display: none;
-  }
-  .help-desk-section {
-    display: none;
-  }
-}
-
-@media (min-width: 576px) {
-  .cardy {
-    display: none;
-  }
-} */
